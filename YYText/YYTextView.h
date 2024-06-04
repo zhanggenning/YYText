@@ -11,15 +11,9 @@
 
 #import <UIKit/UIKit.h>
 
-#if __has_include(<YYText/YYText.h>)
-#import <YYText/YYTextParser.h>
-#import <YYText/YYTextLayout.h>
-#import <YYText/YYTextAttribute.h>
-#else
 #import "YYTextParser.h"
 #import "YYTextLayout.h"
 #import "YYTextAttribute.h"
-#endif
 
 @class YYTextView;
 

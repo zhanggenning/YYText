@@ -11,11 +11,7 @@
 
 #import <UIKit/UIKit.h>
 
-#if __has_include(<YYText/YYText.h>)
-#import <YYText/YYTextAttribute.h>
-#else
 #import "YYTextAttribute.h"
-#endif
 
 NS_ASSUME_NONNULL_BEGIN
 

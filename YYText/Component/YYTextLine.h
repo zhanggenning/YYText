@@ -12,11 +12,7 @@
 #import <UIKit/UIKit.h>
 #import <CoreText/CoreText.h>
 
-#if __has_include(<YYText/YYText.h>)
-#import <YYText/YYTextAttribute.h>
-#else
 #import "YYTextAttribute.h"
-#endif
 
 @class YYTextRunGlyphRange;
 

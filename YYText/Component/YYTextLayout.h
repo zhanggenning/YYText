@@ -12,15 +12,9 @@
 #import <UIKit/UIKit.h>
 #import <CoreText/CoreText.h>
 
-#if __has_include(<YYText/YYText.h>)
-#import <YYText/YYTextDebugOption.h>
-#import <YYText/YYTextLine.h>
-#import <YYText/YYTextInput.h>
-#else
 #import "YYTextDebugOption.h"
 #import "YYTextLine.h"
 #import "YYTextInput.h"
-#endif
 
 @protocol YYTextLinePositionModifier;
 
